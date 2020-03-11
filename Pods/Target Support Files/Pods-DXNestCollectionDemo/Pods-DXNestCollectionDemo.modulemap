@@ -1,0 +1,6 @@
+framework module Pods_DXNestCollectionDemo {
+  umbrella header "Pods-DXNestCollectionDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

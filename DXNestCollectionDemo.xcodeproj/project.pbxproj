@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6B6BF68241898F9007B9C86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BF67241898F9007B9C86 /* AppDelegate.m */; };
+		A6B6BF6B241898F9007B9C86 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BF6A241898F9007B9C86 /* SceneDelegate.m */; };
+		A6B6BF6E241898F9007B9C86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BF6D241898F9007B9C86 /* ViewController.m */; };
+		A6B6BF71241898F9007B9C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BF6F241898F9007B9C86 /* Main.storyboard */; };
+		A6B6BF73241898FB007B9C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BF72241898FB007B9C86 /* Assets.xcassets */; };
+		A6B6BF76241898FB007B9C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6BF74241898FB007B9C86 /* LaunchScreen.storyboard */; };
+		A6B6BF79241898FB007B9C86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BF78241898FB007B9C86 /* main.m */; };
+		A6B6BF9D24189A36007B9C86 /* CountLabelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BF9424189A36007B9C86 /* CountLabelButton.m */; };
+		A6B6BFA52418A970007B9C86 /* UIColor+DXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFA42418A970007B9C86 /* UIColor+DXCategory.m */; };
+		A6B6BFA82418AA6C007B9C86 /* DXNestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFA72418AA6C007B9C86 /* DXNestCollectionViewController.m */; };
+		A6B6BFAB2418AAD4007B9C86 /* DXNestCollectionTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFAA2418AAD4007B9C86 /* DXNestCollectionTitleCell.m */; };
+		A6B6BFAE2418AB71007B9C86 /* DXNestCollectionVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFAD2418AB71007B9C86 /* DXNestCollectionVCCell.m */; };
+		A6B6BFB12418ABC2007B9C86 /* DXCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B6BFB02418ABC2007B9C86 /* DXCollectionFlowLayout.m */; };
+		F95334A5B649B50C85A0313C /* Pods_DXNestCollectionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1104693029A209AC4F5039A4 /* Pods_DXNestCollectionDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1104693029A209AC4F5039A4 /* Pods_DXNestCollectionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DXNestCollectionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		518FF82C29C83B6232174DF8 /* Pods-DXNestCollectionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DXNestCollectionDemo.release.xcconfig"; path = "Target Support Files/Pods-DXNestCollectionDemo/Pods-DXNestCollectionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A6B6BF63241898F9007B9C86 /* DXNestCollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DXNestCollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B6BF66241898F9007B9C86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6B6BF67241898F9007B9C86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6B6BF69241898F9007B9C86 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A6B6BF6A241898F9007B9C86 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A6B6BF6C241898F9007B9C86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6B6BF6D241898F9007B9C86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6B6BF70241898F9007B9C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6B6BF72241898FB007B9C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6B6BF75241898FB007B9C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6B6BF77241898FB007B9C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B6BF78241898FB007B9C86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B6BF9424189A36007B9C86 /* CountLabelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountLabelButton.m; sourceTree = "<group>"; };
+		A6B6BF9924189A36007B9C86 /* CountLabelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountLabelButton.h; sourceTree = "<group>"; };
+		A6B6BF9F24189B28007B9C86 /* DXNestPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXNestPrefixHeader.pch; sourceTree = "<group>"; };
+		A6B6BFA32418A970007B9C86 /* UIColor+DXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+DXCategory.h"; sourceTree = "<group>"; };
+		A6B6BFA42418A970007B9C86 /* UIColor+DXCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DXCategory.m"; sourceTree = "<group>"; };
+		A6B6BFA62418AA6C007B9C86 /* DXNestCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXNestCollectionViewController.h; sourceTree = "<group>"; };
+		A6B6BFA72418AA6C007B9C86 /* DXNestCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXNestCollectionViewController.m; sourceTree = "<group>"; };
+		A6B6BFA92418AAD4007B9C86 /* DXNestCollectionTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXNestCollectionTitleCell.h; sourceTree = "<group>"; };
+		A6B6BFAA2418AAD4007B9C86 /* DXNestCollectionTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXNestCollectionTitleCell.m; sourceTree = "<group>"; };
+		A6B6BFAC2418AB71007B9C86 /* DXNestCollectionVCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXNestCollectionVCCell.h; sourceTree = "<group>"; };
+		A6B6BFAD2418AB71007B9C86 /* DXNestCollectionVCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXNestCollectionVCCell.m; sourceTree = "<group>"; };
+		A6B6BFAF2418ABC2007B9C86 /* DXCollectionFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXCollectionFlowLayout.h; sourceTree = "<group>"; };
+		A6B6BFB02418ABC2007B9C86 /* DXCollectionFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXCollectionFlowLayout.m; sourceTree = "<group>"; };
+		BEF44252F135A4606D7A95CF /* Pods-DXNestCollectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DXNestCollectionDemo.debug.xcconfig"; path = "Target Support Files/Pods-DXNestCollectionDemo/Pods-DXNestCollectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B6BF60241898F9007B9C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95334A5B649B50C85A0313C /* Pods_DXNestCollectionDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1862453B92389AD96A14221C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEF44252F135A4606D7A95CF /* Pods-DXNestCollectionDemo.debug.xcconfig */,
+				518FF82C29C83B6232174DF8 /* Pods-DXNestCollectionDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6592CBCE27AF37F7707D7DA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1104693029A209AC4F5039A4 /* Pods_DXNestCollectionDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B6BF5A241898F8007B9C86 = {
+			isa = PBXGroup;
+			children = (
+				A6B6BF65241898F9007B9C86 /* DXNestCollectionDemo */,
+				A6B6BF64241898F9007B9C86 /* Products */,
+				1862453B92389AD96A14221C /* Pods */,
+				6592CBCE27AF37F7707D7DA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B6BF64241898F9007B9C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6BF63241898F9007B9C86 /* DXNestCollectionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B6BF65241898F9007B9C86 /* DXNestCollectionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6BF66241898F9007B9C86 /* AppDelegate.h */,
+				A6B6BF67241898F9007B9C86 /* AppDelegate.m */,
+				A6B6BF69241898F9007B9C86 /* SceneDelegate.h */,
+				A6B6BF6A241898F9007B9C86 /* SceneDelegate.m */,
+				A6B6BF6C241898F9007B9C86 /* ViewController.h */,
+				A6B6BF6D241898F9007B9C86 /* ViewController.m */,
+				A6B6BF9F24189B28007B9C86 /* DXNestPrefixHeader.pch */,
+				A6B6BF8F24189A36007B9C86 /* DXNestCollection */,
+				A6B6BF6F241898F9007B9C86 /* Main.storyboard */,
+				A6B6BF72241898FB007B9C86 /* Assets.xcassets */,
+				A6B6BF74241898FB007B9C86 /* LaunchScreen.storyboard */,
+				A6B6BF77241898FB007B9C86 /* Info.plist */,
+				A6B6BF78241898FB007B9C86 /* main.m */,
+			);
+			path = DXNestCollectionDemo;
+			sourceTree = "<group>";
+		};
+		A6B6BF8F24189A36007B9C86 /* DXNestCollection */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6BFA62418AA6C007B9C86 /* DXNestCollectionViewController.h */,
+				A6B6BFA72418AA6C007B9C86 /* DXNestCollectionViewController.m */,
+				A6B6BFA92418AAD4007B9C86 /* DXNestCollectionTitleCell.h */,
+				A6B6BFAA2418AAD4007B9C86 /* DXNestCollectionTitleCell.m */,
+				A6B6BFAC2418AB71007B9C86 /* DXNestCollectionVCCell.h */,
+				A6B6BFAD2418AB71007B9C86 /* DXNestCollectionVCCell.m */,
+				A6B6BFAF2418ABC2007B9C86 /* DXCollectionFlowLayout.h */,
+				A6B6BFB02418ABC2007B9C86 /* DXCollectionFlowLayout.m */,
+				A6B6BF9924189A36007B9C86 /* CountLabelButton.h */,
+				A6B6BF9424189A36007B9C86 /* CountLabelButton.m */,
+				A6B6BFA32418A970007B9C86 /* UIColor+DXCategory.h */,
+				A6B6BFA42418A970007B9C86 /* UIColor+DXCategory.m */,
+			);
+			path = DXNestCollection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B6BF62241898F9007B9C86 /* DXNestCollectionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B6BF7C241898FB007B9C86 /* Build configuration list for PBXNativeTarget "DXNestCollectionDemo" */;
+			buildPhases = (
+				5AC844D4D3B00600552BAB96 /* [CP] Check Pods Manifest.lock */,
+				A6B6BF5F241898F9007B9C86 /* Sources */,
+				A6B6BF60241898F9007B9C86 /* Frameworks */,
+				A6B6BF61241898F9007B9C86 /* Resources */,
+				1E284D5EACC3AF15CF487A30 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DXNestCollectionDemo;
+			productName = DXNestCollectionDemo;
+			productReference = A6B6BF63241898F9007B9C86 /* DXNestCollectionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B6BF5B241898F8007B9C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "邓星";
+				TargetAttributes = {
+					A6B6BF62241898F9007B9C86 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = A6B6BF5E241898F8007B9C86 /* Build configuration list for PBXProject "DXNestCollectionDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6B6BF5A241898F8007B9C86;
+			productRefGroup = A6B6BF64241898F9007B9C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B6BF62241898F9007B9C86 /* DXNestCollectionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B6BF61241898F9007B9C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B6BF76241898FB007B9C86 /* LaunchScreen.storyboard in Resources */,
+				A6B6BF73241898FB007B9C86 /* Assets.xcassets in Resources */,
+				A6B6BF71241898F9007B9C86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E284D5EACC3AF15CF487A30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DXNestCollectionDemo/Pods-DXNestCollectionDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DXNestCollectionDemo/Pods-DXNestCollectionDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DXNestCollectionDemo/Pods-DXNestCollectionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC844D4D3B00600552BAB96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DXNestCollectionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B6BF5F241898F9007B9C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B6BFA52418A970007B9C86 /* UIColor+DXCategory.m in Sources */,
+				A6B6BF6E241898F9007B9C86 /* ViewController.m in Sources */,
+				A6B6BF68241898F9007B9C86 /* AppDelegate.m in Sources */,
+				A6B6BF9D24189A36007B9C86 /* CountLabelButton.m in Sources */,
+				A6B6BFAE2418AB71007B9C86 /* DXNestCollectionVCCell.m in Sources */,
+				A6B6BFB12418ABC2007B9C86 /* DXCollectionFlowLayout.m in Sources */,
+				A6B6BFAB2418AAD4007B9C86 /* DXNestCollectionTitleCell.m in Sources */,
+				A6B6BF79241898FB007B9C86 /* main.m in Sources */,
+				A6B6BF6B241898F9007B9C86 /* SceneDelegate.m in Sources */,
+				A6B6BFA82418AA6C007B9C86 /* DXNestCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6B6BF6F241898F9007B9C86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B6BF70241898F9007B9C86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6B6BF74241898FB007B9C86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B6BF75241898FB007B9C86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B6BF7A241898FB007B9C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6B6BF7B241898FB007B9C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B6BF7D241898FB007B9C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF44252F135A4606D7A95CF /* Pods-DXNestCollectionDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RG6SWD44R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DXNestCollectionDemo/DXNestPrefixHeader.pch";
+				INFOPLIST_FILE = DXNestCollectionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzxcbkj.supplymanager.DXNestCollectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B6BF7E241898FB007B9C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 518FF82C29C83B6232174DF8 /* Pods-DXNestCollectionDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RG6SWD44R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DXNestCollectionDemo/DXNestPrefixHeader.pch";
+				INFOPLIST_FILE = DXNestCollectionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzxcbkj.supplymanager.DXNestCollectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B6BF5E241898F8007B9C86 /* Build configuration list for PBXProject "DXNestCollectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B6BF7A241898FB007B9C86 /* Debug */,
+				A6B6BF7B241898FB007B9C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B6BF7C241898FB007B9C86 /* Build configuration list for PBXNativeTarget "DXNestCollectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B6BF7D241898FB007B9C86 /* Debug */,
+				A6B6BF7E241898FB007B9C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B6BF5B241898F8007B9C86 /* Project object */;
+}
